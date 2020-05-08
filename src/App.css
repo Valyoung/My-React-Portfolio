@@ -2,12 +2,109 @@
   text-align: center;
  
     font-family: 'Gloria Hallelujah', cursive;
+    margin: 0;
+    padding: 0;
 
+    
+
+}
+.mdl-ripple{
+  visibility: hidden !important;
+}
+.mdl-switch__input{
+  visibility: hidden !important;
 }
 
 .header-color {
-  background: #dd3e54;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #dd3e54;  
+background: -webkit-linear-gradient(to right, #6be585, #dd3e54); 
+background: linear-gradient(to right, #6be585, #dd3e54); 
 
+}
+
+.banner-text h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+color: whitesmoke;
+font-size: 30px;
+}
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  
+}
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;  
+}
+
+.banner-text p {
+  color: whitesmoke;
+  font-size: 12px;
+  padding: 1em;
+}
+
+.avatar-img {
+  height: 60px;
+  padding-top: -2em;
+  
+}
+
+.val {
+  border-radius: 50%;
+  width: 200px;
+
+}
+
+Footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: whitesmoke;
+   text-align: center;
+   background-color: rgb(5, 5, 5);
+   height: 50px;
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+
+.projects-grid {
+  overflow: hidden;
+}
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 450px;
+  background: rgb(226, 202, 202);
+  color: black;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 60%;
+  margin: auto;
 }

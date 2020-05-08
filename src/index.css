@@ -18,7 +18,18 @@ body {
 	}
 }
 
-{
-	border-radius: 50%;
-	width: 150px;
+
+.val {
+	font-family: 'Gloria Hallelujah', cursive;
+  
+  }
+
+  body {
+	overflow: hidden; /* Hide scrollbars */
+  }
+  .mdl-ripple{
+    visibility: hidden 
+}
+.mdl-switch__input{
+    visibility: hidden 
 }

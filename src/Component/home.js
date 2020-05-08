@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-class  Landing extends Component {
+class  Home extends Component {
     render() { 
         return ( 
             <div style={{width: '100%', margin: 'auto'}}>
@@ -13,11 +13,12 @@ class  Landing extends Component {
                         <div className='banner-text' >
                             <h1>Full Stack Developer</h1>
                             <hr/>
-                            <p>HTML/ CSS | Bootstrap/ Bulma | JavaScript | React/ React Native | NodeJS | Express | MySQL | MongoDB</p>
-                            <a href="/"><img src="github.png"/></a>
-                        </div>
-                        <div>
-                            
+                            <p>HTML/CSS | Bootstrap/ Bulma | JavaScript | React/ React Native | NodeJS | Express | MySQL | MongoDB</p>
+                            <div className='socail-links' >
+                           <a href='https://www.linkedin.com/in/valeshka-young-sang-251738185/' rel='noopener moreferrer' target='_blank'>
+                               <i className='fa fa-linkedin-square' aria-hidden='true'></i>
+                           </a>
+                            </div>
                         </div>
                     </Cell>
 
@@ -27,4 +28,4 @@ class  Landing extends Component {
     }
 }
  
-export default Landing;
+export default Home;

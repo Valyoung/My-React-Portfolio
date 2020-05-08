@@ -3,10 +3,16 @@ import React, { Component } from 'react';
 class  About  extends Component {
     render() { 
         return ( 
-                <div style={{width: '100%', margin: 'auto'}}>
-                        <img
+                <div style={{ margin: 'auto'}}>
+                        <img className="val"
                         src="mypic.jpg"
                         />
+<br/>
+                       <p>Hello there! My name is Valeshka Young Sang. <br/>
+                       I am a Web Developer with a purpose. I am from Brooklyn New York and now living in Kansas City. 
+                       I love to solve complicated problems and have a mind for code. I am able to build, maintain and <br/> update websites with a unique technique.
+
+I am interested in making a new way to communicate for children and adults that are gifted with autism. Come join me!</p> 
 
             </div>
          );
