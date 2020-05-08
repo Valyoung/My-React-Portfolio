@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import Github from '../github.png';
+import Linkden from '../linkden.png';
 
 class  Contact extends Component {
     render() { 
@@ -19,10 +21,10 @@ class  Contact extends Component {
 <div className="contact-list">
                       <List>
   <ListItem>
-    <ListItemContent style={{fontSize:"50px"}}> <a href="https://github.com/Valyoung"> <img src="linkden.png"/></a> Linkden</ListItemContent>
+    <ListItemContent style={{fontSize:"50px"}}> <a href="https://www.linkedin.com/in/valeshka-young-sang-251738185/" target="_blank"> <img src={Linkden}/></a> Linkden</ListItemContent>
   </ListItem>
   <ListItem>
-    <ListItemContent style={{fontSize:"50px"}}> <a href="https://github.com/Valyoung"> <img src="github.png"/></a> GitHub</ListItemContent>
+    <ListItemContent style={{fontSize:"50px"}}> <a href="https://github.com/Valyoung" target="_blank"> <img src={Github}/></a> GitHub</ListItemContent>
   </ListItem>
 </List>
 </div>
