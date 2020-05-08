@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Footer, FooterSection, FooterLinkList } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Footer, FooterSection, } from 'react-mdl';
 import Main from './Component/main';
 import {Link} from 'react-router-dom'
 

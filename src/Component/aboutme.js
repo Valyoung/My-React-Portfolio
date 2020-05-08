@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
+import Mypic from '../mypic.jpg';
+
 
 class  About  extends Component {
     render() { 
         return ( 
                 <div style={{ margin: 'auto'}}>
-                        <img className="val"
-                        src="mypic.jpg"
-                        />
+<img className="val" 
+     src={Mypic}
+     alt="Me"/>
+                        
 <br/>
                        <p>Hello there! My name is Valeshka Young Sang. <br/>
                        I am a Web Developer with a purpose. I am from Brooklyn New York and now living in Kansas City. 
