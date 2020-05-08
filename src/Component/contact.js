@@ -19,10 +19,10 @@ class  Contact extends Component {
 <div className="contact-list">
                       <List>
   <ListItem>
-    <ListItemContent style={{fontSize:"50px"}}> <a href="https://github.com/Valyoung"> <img src="/linkden.png"/></a> Linkden</ListItemContent>
+    <ListItemContent style={{fontSize:"50px"}}> <a href="https://github.com/Valyoung"> <img src="linkden.png"/></a> Linkden</ListItemContent>
   </ListItem>
   <ListItem>
-    <ListItemContent style={{fontSize:"50px"}}> <a href="https://github.com/Valyoung"> <img src="/github.png"/></a> GitHub</ListItemContent>
+    <ListItemContent style={{fontSize:"50px"}}> <a href="https://github.com/Valyoung"> <img src="github.png"/></a> GitHub</ListItemContent>
   </ListItem>
 </List>
 </div>

@@ -14,7 +14,6 @@ class  Landing extends Component {
                             <h1>Full Stack Developer</h1>
                             <hr/>
                             <p>HTML/ CSS | Bootstrap/ Bulma | JavaScript | React/ React Native | NodeJS | Express | MySQL | MongoDB</p>
-                            <a href="/"><img src="github.png"/></a>
                         </div>
                         <div>
                             
